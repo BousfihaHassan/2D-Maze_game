@@ -28,7 +28,7 @@ html, body {
 #mazeContainer #mazeCanvas {
     margin: 0;
     display: block;
-    border: solid 2px rgb(255, 255, 255);
+    border: solid 2px rgb(0, 0, 0);
     height: 400px;
 }
 input, select {
@@ -67,7 +67,7 @@ input:focus, select:focus {
 }
 #Message-Container {
     visibility: hidden;
-    color: white;
+    color: rgb(255, 255, 255);
     display: block;
     width: 100vw;
     height: 100vh;
@@ -76,7 +76,7 @@ input:focus, select:focus {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(19, 22, 165, 0.3);
     z-index: 1;
 }
 #Message-Container #message {
